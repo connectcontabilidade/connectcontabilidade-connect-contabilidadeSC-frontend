@@ -1,13 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Connect Contabilidade</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Layout Tipo Whaticket</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Connect Contabilidade</h1>
-  <p>Frontend funcionando! Backend em breve...</p>
+
+  <div class="container">
+
+    <!-- Header -->
+    <header class="header">
+      <div class="header-left">Connect Contabilidade</div>
+      <div class="header-right">
+        <button>🔔</button>
+        <button>👤</button>
+      </div>
+    </header>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="chat-list">
+        <div class="chat-item">📞 Cliente 1</div>
+        <div class="chat-item">📞 Cliente 2</div>
+        <div class="chat-item">📞 Cliente 3</div>
+      </div>
+    </aside>
+
+    <!-- Main -->
+    <main class="main">
+      <div class="chat-header">
+        👤 Cliente Selecionado
+      </div>
+
+      <div class="messages">
+        <div class="message received">Oi, tudo bem?</div>
+        <div class="message sent">Tudo ótimo, e com você?</div>
+        <div class="message received">Preciso de ajuda com meu imposto.</div>
+      </div>
+
+      <div class="message-input">
+        <input type="text" placeholder="Digite sua mensagem..." />
+        <button>Enviar</button>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      Conectado como: <strong>Atendente</strong>
+    </footer>
+
+  </div>
+
+  <!-- Botão flutuante do Widget -->
+  <a class="chat-widget" href="#">
+    <!-- Aqui você pode usar um ícone de chat (ex: um SVG ou FontAwesome) -->
+  </a>
+
 </body>
 </html>

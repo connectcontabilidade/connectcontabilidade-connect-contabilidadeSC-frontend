@@ -8,10 +8,120 @@
     "footer footer";
   height: 100vh;
 }
-.header { grid-area: header; }
-.sidebar { grid-area: sidebar; }
-.main    { grid-area: main; display: flex; flex-direction: column; }
-.footer  { grid-area: footer; }
+.header {
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  background-color: #007aff;
+  color: white;
+}
+.header-left {
+  font-weight: bold;
+}
+.header-right button {
+  margin-left: 8px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f1f1;
+  overflow-y: auto;
+}
+
+.chat-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-item {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.chat-item:hover {
+  background-color: #e0e0e0;
+}
+.main {
+  grid-area: main;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.chat-header {
+  padding: 12px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+}
+
+.messages {
+  flex: 1;
+  padding: 12px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  margin-bottom: 8px;
+  max-width: 70%;
+  padding: 8px 12px;
+  border-radius: 10px;
+}
+
+.message.received {
+  background-color: #e5e5ea;
+  align-self: flex-start;
+}
+
+.message.sent {
+  background-color: #007aff;
+  color: white;
+  align-self: flex-end;
+}
+
+.message-input {
+  display: flex;
+  border-top: 1px solid #ddd;
+  padding: 8px;
+  background-color: #fff;
+}
+
+.message-input input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin-right: 8px;
+}
+
+.message-input button {
+  background-color: #007aff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.footer {
+  grid-area: footer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+  font-size: 12px;
+  color: #555;
+}
+
 .chat-widget {
   position: fixed;
   bottom: 20px;
