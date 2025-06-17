@@ -39,7 +39,7 @@
   "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^17.0.0",
-    "@commitlint/config-angular": "^17.0.0",
+    "@commitlint/config-angular": "^19.8.1",
     "@commitlint/config-conventional": "^17.0.0",
     "@commitlint/cz-commitlint": "^17.0.0",
     "@emotion/react": "^11.9.0",
