@@ -10776,9 +10776,9 @@ react-is@^16.13.1, react-is@^16.6.0, react-is@^16.7.0:
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
 react-json-csv@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/react-json-csv/-/react-json-csv-2.0.0.tgz#200275a80122de65986a0165d59a0f65934e0c95"
-  integrity sha512-hbTBVWsEe/Nqz9By0GHBizoWO91pNNVHiiTVW2E8ZRyIqMRl3yBhWmfErW/VCNccCPvVz6dT3SelfNDbrYd86w==
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/react-json-csv/-/react-json-csv-2.1.0.tgz#aafa226abceed2aa5ea96533a46d55ac75c6b5d8"
+  integrity sha512-XiuT/Z3LEbgAucdDqc/3v0KT6HZ7AnVB+2k67okwdCMr2tYk57PZUQh/PpAQjz4fiZnT16fK/S6h2NdYYfiePQ==
   dependencies:
     file-saver "^2.0.2"
     prop-types "^15.7.2"
