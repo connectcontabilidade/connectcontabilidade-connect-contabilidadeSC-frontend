@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ],
+  "env": {
+    "REACT_APP_META_API_URL": "https://graph.facebook.com/v18.0",
+    "REACT_APP_PHONE_NUMBER_ID": "@whatsapp-phone-number-id",
+    "REACT_APP_ACCESS_TOKEN": "@whatsapp-access-token"
+  }
+}
