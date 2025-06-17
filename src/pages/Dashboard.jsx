@@ -1,14 +1,13 @@
+
 import React from "react";
 
-const Dashboard = () => {
+function Dashboard() {
   return (
-    <div className="p-4">
-      <h1 className="text-xl font-bold mb-4">Painel de Atendimentos</h1>
-      <div className="bg-white p-4 rounded shadow">
-        <p>Lista de conversas aparecerá aqui...</p>
-      </div>
+    <div className="flex flex-col items-center justify-center h-screen bg-green-100">
+      <h1 className="text-3xl font-bold">Dashboard - Connect Contabilidade</h1>
+      <p className="mt-4">Área interna multiusuário</p>
     </div>
   );
-};
+}
 
 export default Dashboard;
